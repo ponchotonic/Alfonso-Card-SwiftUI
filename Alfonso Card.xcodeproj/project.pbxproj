@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120E35862A1D1E8100415E7E /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120E35852A1D1E8100415E7E /* InfoView.swift */; };
 		12F5A6F82A17F83E00FBF3ED /* Alfonso_CardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F5A6F72A17F83E00FBF3ED /* Alfonso_CardApp.swift */; };
 		12F5A6FA2A17F83E00FBF3ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F5A6F92A17F83E00FBF3ED /* ContentView.swift */; };
 		12F5A6FC2A17F84000FBF3ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F5A6FB2A17F84000FBF3ED /* Assets.xcassets */; };
 		12F5A6FF2A17F84000FBF3ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F5A6FE2A17F84000FBF3ED /* Preview Assets.xcassets */; };
+		12F5A7072A18056600FBF3ED /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12F5A7062A18056600FBF3ED /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		120E35852A1D1E8100415E7E /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		12B39C0E2A1D09BE001CBF38 /* Alfonso-Card-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alfonso-Card-Info.plist"; sourceTree = SOURCE_ROOT; };
 		12F5A6F42A17F83E00FBF3ED /* Alfonso Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alfonso Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F5A6F72A17F83E00FBF3ED /* Alfonso_CardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alfonso_CardApp.swift; sourceTree = "<group>"; };
 		12F5A6F92A17F83E00FBF3ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12F5A6FB2A17F84000FBF3ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12F5A6FE2A17F84000FBF3ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12F5A7062A18056600FBF3ED /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +56,13 @@
 		12F5A6F62A17F83E00FBF3ED /* Alfonso Card */ = {
 			isa = PBXGroup;
 			children = (
+				12B39C0E2A1D09BE001CBF38 /* Alfonso-Card-Info.plist */,
+				12F5A7052A18055900FBF3ED /* Fonts */,
 				12F5A6F72A17F83E00FBF3ED /* Alfonso_CardApp.swift */,
 				12F5A6F92A17F83E00FBF3ED /* ContentView.swift */,
 				12F5A6FB2A17F84000FBF3ED /* Assets.xcassets */,
 				12F5A6FD2A17F84000FBF3ED /* Preview Content */,
+				120E35852A1D1E8100415E7E /* InfoView.swift */,
 			);
 			path = "Alfonso Card";
 			sourceTree = "<group>";
@@ -65,6 +73,14 @@
 				12F5A6FE2A17F84000FBF3ED /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		12F5A7052A18055900FBF3ED /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				12F5A7062A18056600FBF3ED /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12F5A7072A18056600FBF3ED /* Pacifico-Regular.ttf in Resources */,
 				12F5A6FF2A17F84000FBF3ED /* Preview Assets.xcassets in Resources */,
 				12F5A6FC2A17F84000FBF3ED /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12F5A6FA2A17F83E00FBF3ED /* ContentView.swift in Sources */,
+				120E35862A1D1E8100415E7E /* InfoView.swift in Sources */,
 				12F5A6F82A17F83E00FBF3ED /* Alfonso_CardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +288,7 @@
 				DEVELOPMENT_TEAM = 2Z34K6G2JU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Alfonso-Card-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +318,7 @@
 				DEVELOPMENT_TEAM = 2Z34K6G2JU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Alfonso-Card-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
